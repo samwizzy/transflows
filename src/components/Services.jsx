@@ -5,8 +5,8 @@ import { Hicons3 } from "../TransflowImages/Aimages";
 import { Hicons4 } from "../TransflowImages/Aimages";
 const Services = () => {
   return (
-    <div className="mt-36 ml-72 max-w-[1000px] mx-auto ">
-      <div className="flex max-w-[1200px]">
+    <div className=" w-screen mx-auto py-16">
+      <div className="flex max-w-4xl mx-auto">
         <div>
           <div className="flex">
             <div className="h-7  w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>

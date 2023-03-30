@@ -1,5 +1,5 @@
 import React from "react";
-import { ManWoman } from "../TransflowImages/Aimages";
+import { ManWoman, More } from "../TransflowImages/Aimages";
 import { Truck } from "../TransflowImages/Aimages";
 import { ShipWater } from "../TransflowImages/Aimages";
 import { Container } from "../TransflowImages/Aimages";
@@ -9,12 +9,12 @@ const Project = () => {
     <div>
       <div className="h-screen justify-center flex flex-col">
         <div className="h-96 w-full bg-white">
-          <h1 className="font-bold text-2xl text-center">
+          <h1 className="font-bold text-2xl text-center text-[#1C1F35]">
             Transporting Across The World
           </h1>
         </div>
         <div className="h-96 w-full bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]">
-          <div className="grid md:grid-cols-5 gap-3 justify-center items-center p-8 transform  -translate-y-72">
+          <div className="grid md:grid-cols-5 gap-0 justify-center items-center p-3 transform  -translate-y-72">
             <div className="p-2" style={{ position: "relative" }}>
               <img
                 src={Truck}
@@ -27,8 +27,10 @@ const Project = () => {
               />
 
               <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-64 bottom-0">
-                <h1 className="text-xl text-white">Liquid Transportation</h1>
-                <p className="text-[#FFB629] text-sm ">Premium Tankers</p>
+                <h1 className="text-xl text-white font-bold">
+                  Liquid Transportation
+                </h1>
+                <p className="text-[#FFB629] text-xs ">Premium Tankers</p>
               </div>
             </div>
             <div className="p-2 " style={{ position: "relative" }}>
@@ -77,15 +79,13 @@ const Project = () => {
                 alt=""
                 className="h-auto w-full object-contain"
               />
-              <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-64 bottom-0">
+              <div className="items-start p-2 gap-4 absolute w-full h-52 left-25 top-64 bottom-0">
                 <h1 className="text-xl text-white">Specialized Transport</h1>
                 <p className="text-[#FFB629] text-sm ">Ocean Transports</p>
               </div>
             </div>
-            <div className="grid justify-center items-center h-full w-screen">
-              <button className="bg-[#1F2A69] text-white text-sm  w-[200px]  rounded-md font-medium  py-3  mx-auto">
-                More Work
-              </button>
+            <div className="grid justify-center items-center h-full w-screen mt-9">
+              <img src={More} alt="" />
             </div>
           </div>
         </div>

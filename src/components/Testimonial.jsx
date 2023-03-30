@@ -2,27 +2,35 @@ import React from "react";
 import { FairMan } from "../TransflowImages/Aimages";
 import { WhiteMan } from "../TransflowImages/Aimages";
 import { Comma } from "../TransflowImages/Aimages";
+import Star from "./Star";
+import {
+  BsFillArrowLeftCircleFill,
+  BsFillArrowRightCircleFill,
+} from "react-icons/bs";
 
 const Testimonial = () => {
   return (
-    <div>
-      <div className="ml-64">
+    <div className="w-screen">
+      <div className="mx-auto max-w-4xl">
         <div className="flex ">
           <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
           <p className="text-black bg-[#E8E8E880] w-28 text-sm p-1">
             Testimonial
           </p>
         </div>
-        <div className="flex">
+        <div className="flex justify-between">
           <h1 className="font-bold font-display text-2xl">
             What Our Customer Say
           </h1>
-          <img src="" alt="" />
+          <div className="text-[#FFB629] flex  ">
+            <BsFillArrowLeftCircleFill className="w-16 h-10 text-[#091242]" />
+            <BsFillArrowRightCircleFill className="w-16 h-10 text-[#FFB629]" />
+          </div>
         </div>
       </div>
-      <div className="ml-64 flex">
+      <div className=" flex justify-center items-center h-full w-screen mx-auto max-w-4xl">
         <div
-          className=" bg-slate-200 w-1/3 h-96 p-9"
+          className=" bg-[#F4F4F4] w-1/3 h-96 p-10 "
           style={{ width: "500px" }}
         >
           <div className="flex">
@@ -30,7 +38,12 @@ const Testimonial = () => {
               <div className="flex">
                 <img src={WhiteMan} alt="" className="rounded-full w-20 h-20" />
                 <div className="flex-col text-[#091242] ml-2">
-                  <h1 className="font-bold text-2xl">Kathleen Smith</h1>
+                  <h1
+                    className="font-bold text-2xl"
+                    style={{ fontSize: "20px" }}
+                  >
+                    Kathleen Smith
+                  </h1>
                   <p className="text-sm">Fuel Company</p>
                 </div>
               </div>
@@ -45,14 +58,22 @@ const Testimonial = () => {
               disruptive innovation via workplace diversity and empowerment.
             </p>
           </div>
+          <div className="mt-4">
+            <Star />
+          </div>
         </div>
-        <div className="bg-[#091242] w-1/3 h-96 p-9" style={{ width: "500px" }}>
+        <div
+          className="bg-[#091242] w-1/3 h-96 p-10"
+          style={{ width: "500px" }}
+        >
           <div className="flex">
             <div className="flex gap-20">
               <div className="flex">
                 <img src={FairMan} alt="" className="rounded-full w-20 h-20" />
                 <div className="flex-col text-white ml-3">
-                  <h1 className="font-bold text-2xl">John Martin</h1>
+                  <h1 className="font-bold " style={{ fontSize: "20px" }}>
+                    John Martin
+                  </h1>
                   <p className="text-sm">Restoration Company</p>
                 </div>
               </div>
@@ -66,6 +87,9 @@ const Testimonial = () => {
               value proposition. Organically grow the holistic world view of
               disruptive innovation via workplace diversity and empowerment.
             </p>
+          </div>
+          <div className="mt-4">
+            <Star />
           </div>
         </div>
       </div>
