@@ -1,34 +1,23 @@
 import React from "react";
-import {
-  CallUs,
-  Mail,
-  Norto,
-  PointsOne,
-  Snow,
-  StudiGreen,
-  Time,
-} from "../TransflowImages";
+import { CallUs, Mail, Norto, PointsOne, Snow, StudiGreen, Time } from "../TransflowImages";
 import "../styles/HomeStyles.css";
 
 const Contact = () => {
   return (
-    <div className="bg-[#091242] w-full mt-9">
-      <div className="Contact max-w-2xl mx-auto flex justify-center items-center">
+    <div className="bg-[#091242] w-full my-16">
+      <div className="py-32 max-w-2xl mx-auto flex justify-center items-center">
         <div>
           <div className="flex ">
             <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
-            <p className="text-white bg-[#E8E8E880] w-28 text-sm p-1">
-              Contact
-            </p>
+            <p className="text-white bg-[#E8E8E880] w-28 text-sm p-1">Contact</p>
             --{" "}
           </div>
           <div className="flex  justify-center items-center md:flex-row md:space-x-8 ">
             <div className="text-white w-96">
               <h1 className="font-bold text-2xl mt-2">Get in touch with us</h1>
               <p className="mt-2 text-xs leading-5">
-                Leverage agile frameworks to provide a robust synopsis for
-                strategy foster collaborative thinking to further the overall
-                value.
+                Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to
+                further the overall value.
               </p>
               <div className="flex-col items-center mt-4">
                 <div className="flex items-center mt-4">
@@ -111,18 +100,9 @@ const Contact = () => {
           </div>
 
           <div className="grid md:grid-cols-4 gap-0 mt-20">
-            <img
-              src={StudiGreen}
-              alt=""
-              style={{ width: "300px" }}
-              className="h-auto w-full object-contain"
-            />
+            <img src={StudiGreen} alt="" style={{ width: "300px" }} className="h-auto w-full object-contain" />
             <img src={Norto} alt="" className="h-auto w-full object-contain" />
-            <img
-              src={PointsOne}
-              alt=""
-              className="h-auto w-full object-contain"
-            />
+            <img src={PointsOne} alt="" className="h-auto w-full object-contain" />
             <img src={Snow} alt="" className="h-auto w-full object-contain" />
           </div>
         </div>

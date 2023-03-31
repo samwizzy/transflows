@@ -1,17 +1,19 @@
-import React from 'react'
-import Banner from "../components/Banner"
-import Services from "../components/Services"
-import About from "../components/About"
-import Project from "../components/Project"
-import Testimonial from "../components/Testimonial"
-import WhyChooseUs from "../components/WhyChooseUs"
-import Team from "../components/Team"
-import Contact from "../components/Contact"
-import Blog from "../components/Blog"
-import Footer from "../components/Footer"
+import React from "react";
+import Banner from "../components/Banner";
+import Services from "../components/Services";
+import About from "../components/About";
+import Project from "../components/Project";
+import Testimonial from "../components/Testimonial";
+import WhyChooseUs from "../components/WhyChooseUs";
+import Team from "../components/Team";
+import Contact from "../components/Contact";
+import Blog from "../components/Blog";
+// import Footer from "../components/Footer"
+import Footer from "../components/Footer2";
+
 const Home = () => {
   return (
-    <div className='Home'>
+    <div className="Home">
       <Banner />
       <Services />
       <About />
@@ -23,7 +25,7 @@ const Home = () => {
       <Blog />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

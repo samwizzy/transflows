@@ -12,21 +12,21 @@ const Footer = () => {
 
       <div className="w-full bg-[#ffffff40]">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-x-0">
-            <div className="bg-[#091242] flex justify-center items-center py-4 w-[35%]">
+          <div className="grid grid-cols-12 sm:gap-x-2">
+            <div className="bg-[#091242] flex justify-center items-center py-4 col-span-4">
               <img src={Logo} alt="" />
             </div>
 
-            <h4 className="text-lg font-bold text-white w-[22%] pl-7">Pages</h4>
-            <h4 className="text-lg font-bold text-white w-[20%]">Utility</h4>
-            <h4 className="text-lg font-bold text-white w-[23%]">Subscribe</h4>
+            <h4 className="text-lg font-bold text-white col-span-2 self-center pl-8">Pages</h4>
+            <h4 className="text-lg font-bold text-white col-span-2 self-center">Utility</h4>
+            <h4 className="text-lg font-bold text-white col-span-4 self-center">Subscribe</h4>
           </div>
         </div>
       </div>
 
       <div className="max-w-4xl mx-auto py-8 lg:py-12">
-        <div className="flex justify-start items-start sm:gap-x-2 mb-8 xl:mb-0">
-          <div className="w-[35%]">
+        <div className="grid grid-cols-12 sm:gap-x-2 mb-8">
+          <div className="col-span-4">
             <p className="font-medium mb-4 text-xs text-white">
               Leverage agile frameworks to provide a robust synopsis for strategy collaborative thinking to further the
               overall value proposition.
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mb-8 xl:mb-0 w-[22%] pl-6">
+          <div className="mb-8 xl:mb-0 col-span-2  pl-8">
             <ul className="list-none text-white text-sm">
               <li className="mb-2">About Us</li>
               <li className="mb-2">Our Team</li>
@@ -57,7 +57,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="mb-8 xl:mb-0 w-[20%]">
+          <div className="mb-8 col-span-2">
             <ul className="list-none text-white text-sm">
               <li className="mb-2">Style Guide</li>
               <li className="mb-2">Changelog</li>
@@ -67,7 +67,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="w-[23%]">
+          <div className="col-span-4">
             <div className="">
               <input
                 type="email"

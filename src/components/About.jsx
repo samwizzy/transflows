@@ -20,7 +20,7 @@ const About = () => {
       ></div>
       <div className="w-screen">
         <div className="max-w-4xl mx-auto relative -translate-y-24 bg-white">
-          <div class="gallery p-9 mx-auto max-w-4xl  grid md:grid-cols-2 gap-8">
+          <div class="pb-40 p-8 mx-auto max-w-4xl grid md:grid-cols-2 gap-8">
             <div>
               <div className="flex">
                 <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
@@ -56,27 +56,27 @@ const About = () => {
           </div>
 
           <div className="pb-8 max-w-4xl mx-auto">
-            <div className="border-t-2 border-[#D4D4D4] h-px"></div>
+            <div className="border-t border-[#D4D4D4] h-px" />
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="flex justify-between items-center w-96 ml-10 flex-row gap-4 p-0">
                 <h1 className="text-5xl  font-extrabold text-[#1C1F35]">1294</h1>
-                <div className="h-4 w-4 mt-4 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
-                <p className="text-xl mr-4 mt-3 text-[#1C1F35]">Delivered Packages</p>
+                <div className="h-4 w-4 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]" />
+                <p className="text-xl mr-4 text-[#1C1F35]">Delivered Packages</p>
 
                 <div className="">
-                  <div className="w-2 h-20 border-r border-[#D4D4D4] "></div>
+                  <div className="w-2 h-20 border-r border-[#D4D4D4]" />
                 </div>
               </div>
 
               <div className="flex justify-between items-center w-96 flex-row gap-4 p-0">
                 <h1 className="text-5xl font-extrabold text-[#1C1F35]">3594</h1>
-                <div className="h-4 w-4 mt-4 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
-                <p className="text-xl mr-4 mt-3 text-[#1C1F35]">Satisfied Clients</p>
+                <div className="h-4 w-4 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]" />
+                <p className="text-xl mr-4 text-[#1C1F35]">Satisfied Clients</p>
               </div>
             </div>
 
-            <div className=" border-b-2  border-[#D4D4D4] h-px"></div>
+            <div className="border-b border-[#D4D4D4] h-px" />
           </div>
         </div>
       </div>

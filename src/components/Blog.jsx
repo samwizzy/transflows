@@ -4,17 +4,13 @@ import { Calender, Color, Carton, WaterShip, Button } from "../TransflowImages";
 
 const Blog = () => {
   return (
-    <div className="Blog w-full h-fit mt-7">
+    <div className="py-16 w-full h-fit">
       <div className="max-w-3xl mx-auto">
         <div className="flex items-center justify-center">
           <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] "></div>
-          <p className="text-[#1C1F35] bg-[#E8E8E880] w-30 text-sm p-1 text-center">
-            Our Blog
-          </p>
+          <p className="text-[#1C1F35] bg-[#E8E8E880] w-30 text-sm p-1 text-center">Our Blog</p>
         </div>
-        <h1 className="font-bold text-[#1C1F35] text-2xl text-center">
-          Our Latest News
-        </h1>
+        <h1 className="font-bold text-[#1C1F35] text-2xl text-center">Our Latest News</h1>
         <div className=" border-t-2 border-[#D6D6D6] mt-7">
           <div className="flex flex-col">
             <div className="flex gap-2 justify-center items-center mt-4 max-w-4xl ">
@@ -32,12 +28,10 @@ const Blog = () => {
                 <div className="w-2 h-60 border-r border-[#D6D6D6] mt-10 mr-6"></div>
               </div>
               <div className=" mt-12">
-                <h1 className="text-2xl font-bold text-[1C1F35]">
-                  Inland freight a worthy solution for your business
-                </h1>
+                <h1 className="text-2xl font-bold text-[1C1F35]">Inland freight a worthy solution for your business</h1>
                 <p className="mt-2 text-[#666C89] text-sm">
-                  We are dedicated in creating added value for our customers by
-                  implementing modern technology in our work.{" "}
+                  We are dedicated in creating added value for our customers by implementing modern technology in our
+                  work.{" "}
                 </p>
                 <div className="mt-2 text[#666C89] ">
                   <li>Urgent transport solutions</li>
@@ -69,8 +63,8 @@ const Blog = () => {
                   How technology can help redraw the supply chain map
                 </h1>
                 <p className="mt-2 text-[#666C89] text-sm">
-                  We are dedicated in creating added value for our customers by
-                  implementing modern technology in our work.{" "}
+                  We are dedicated in creating added value for our customers by implementing modern technology in our
+                  work.{" "}
                 </p>
                 <div className="mt-2 text-[#666C89] ">
                   <li>Urgent transport solutions</li>
@@ -96,12 +90,10 @@ const Blog = () => {
                 <div className="w-2 h-60 border-r border-[#D6D6D6] mt-10 mr-6"></div>
               </div>
               <div className="w mt-12">
-                <h1 className="text-2xl font-bold text-[#1C1F35]">
-                  Five things you should have ready for your broker
-                </h1>
+                <h1 className="text-2xl font-bold text-[#1C1F35]">Five things you should have ready for your broker</h1>
                 <p className="mt-2 text-[#666C89] text-sm">
-                  We are dedicated in creating added value for our customers by
-                  implementing modern technology in our work.{" "}
+                  We are dedicated in creating added value for our customers by implementing modern technology in our
+                  work.{" "}
                 </p>
                 <div className="mt-2 text-[#666C89]">
                   <li>Urgent transport solutions</li>
