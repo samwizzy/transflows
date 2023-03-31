@@ -8,72 +8,44 @@ import "../styles/HomeStyles.css";
 
 const Project = () => {
   return (
-    <div>
-      <div className="h-screen justify-center flex flex-col">
+    <div className="mb-24">
+      <div className="justify-center flex flex-col">
         <div className="h-96 w-full bg-white">
-          <h1 className="font-bold text-2xl text-center text-[#1C1F35]">
-            Transporting Across The World
-          </h1>
+          <h1 className="font-bold text-2xl text-center text-[#1C1F35]">Transporting Across The World</h1>
         </div>
         <div className="h-96 w-full bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]">
           <div className="grid md:grid-cols-5 gap-0 justify-center items-center p-3 transform  -translate-y-72">
             <div className="WriteUp p-2">
-              <img
-                src={Truck}
-                alt=""
-                className="h-auto w-full object-contain"
-              />
+              <img src={Truck} alt="" className="h-auto w-full object-contain" />
 
               <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-64 bottom-0">
-                <h1 className="text-xl text-white font-bold">
-                  Liquid Transportation
-                </h1>
+                <h1 className="text-xl text-white font-bold">Liquid Transportation</h1>
                 <p className="text-[#FFB629] text-xs ">Premium Tankers</p>
               </div>
             </div>
             <div className="p-2 WriteUp">
-              <img
-                src={ManWoman}
-                alt=""
-                className="h-auto w-full object-contain"
-              />
+              <img src={ManWoman} alt="" className="h-auto w-full object-contain" />
               <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-64 bottom-0">
                 <h1 className="text-xl text-white">Packaging Solutions</h1>
-                <p className="text-[#FFB629] text-sm text-center">
-                  Warehouse Management
-                </p>
+                <p className="text-[#FFB629] text-sm text-center">Warehouse Management</p>
               </div>
             </div>
             <div className="p-2 WriteUp ">
-              <img
-                src={TruckFlex}
-                alt=""
-                className="h-auto w-full object-contain"
-              />
+              <img src={TruckFlex} alt="" className="h-auto w-full object-contain" />
               <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-64 bottom-0">
                 <h1 className="text-xl text-white">Contract Logistics</h1>
-                <p className="text-[#FFB629] text-sm text-center">
-                  Road Transportation
-                </p>
+                <p className="text-[#FFB629] text-sm text-center">Road Transportation</p>
               </div>
             </div>
             <div className="p-2 WriteUp">
-              <img
-                src={Container}
-                alt=""
-                className="h-auto w-full object-contain"
-              />
+              <img src={Container} alt="" className="h-auto w-full object-contain" />
               <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-64 bottom-0">
                 <h1 className="text-xl text-white">Warehouse & Distribution</h1>
                 <p className="text-[#FFB629] text-sm ">Large Warehouse</p>
               </div>
             </div>
             <div className="p-2 WriteUp">
-              <img
-                src={ShipWater}
-                alt=""
-                className="h-auto w-full object-contain"
-              />
+              <img src={ShipWater} alt="" className="h-auto w-full object-contain" />
               <div className="items-start p-2 gap-4 absolute w-full h-52 left-25 top-64 bottom-0">
                 <h1 className="text-xl text-white">Specialized Transport</h1>
                 <p className="text-[#FFB629] text-sm ">Ocean Transports</p>
