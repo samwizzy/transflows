@@ -1,21 +1,14 @@
-import React, { useState } from "react";
-import { Hero, Explore, Hover } from "../TransflowImages/Aimages";
+import React from "react";
+import { Hero } from "../TransflowImages/Aimages";
 //import Header from './Header';
 import NavigationBar from "./NavigationBar";
+import "../styles/HomeStyles.css";
+
 const Banner = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
   return (
     <div
       role="banner"
-      className="text-white h-screen w-screen"
+      className="banner text-white  w-screen"
       style={{
         backgroundImage: `url(${Hero})`,
         backgroundPosition: "center",
@@ -41,13 +34,21 @@ const Banner = () => {
           finibus, enim diam interdum nulla, sed laoreet risus lectus.{" "}
         </p>
 
-        <img
-          src={isHovered ? Hover : Explore}
-          alt=""
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-          className=" h-10 object-cover mt-2"
-        />
+        <button className="bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] w-32 h-12 relative overflow-hidden text-[#23212A] font-bold text-xs text-center">
+          Explore More
+          <span className="absolute bottom-0 right-0">
+            <span
+              className="block h-8 w-8 bg-white"
+              style={{
+                transform: "rotate(90deg)",
+                marginTop: "-5px",
+                marginRight: "-3px",
+                borderRadius: "0px 0px 0px 250px",
+                transition: "all 0.3s ease-in-out",
+              }}
+            />
+          </span>
+        </button>
       </div>
     </div>
   );

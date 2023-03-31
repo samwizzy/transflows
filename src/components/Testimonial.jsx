@@ -3,6 +3,7 @@ import { FairMan } from "../TransflowImages/Aimages";
 import { WhiteMan } from "../TransflowImages/Aimages";
 import { Comma } from "../TransflowImages/Aimages";
 import Star from "./Star";
+import "../styles/HomeStyles.css";
 import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
@@ -10,7 +11,7 @@ import {
 
 const Testimonial = () => {
   return (
-    <div className="w-screen">
+    <div className=" testimonial w-screen ">
       <div className="mx-auto max-w-4xl">
         <div className="flex ">
           <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
@@ -18,7 +19,7 @@ const Testimonial = () => {
             Testimonial
           </p>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-between items-center">
           <h1 className="font-bold font-display text-2xl">
             What Our Customer Say
           </h1>
@@ -28,22 +29,14 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className=" flex justify-center items-center h-full w-screen mx-auto max-w-4xl">
-        <div
-          className=" bg-[#F4F4F4] w-1/3 h-96 p-10 "
-          style={{ width: "500px" }}
-        >
+      <div className=" flex justify-center items-center w-screen mx-auto max-w-4xl">
+        <div className="bgTestimony bg-[#F4F4F4] w-1/3 h-96 p-10 ">
           <div className="flex">
             <div className="flex gap-20">
               <div className="flex">
                 <img src={WhiteMan} alt="" className="rounded-full w-20 h-20" />
                 <div className="flex-col text-[#091242] ml-2">
-                  <h1
-                    className="font-bold text-2xl"
-                    style={{ fontSize: "20px" }}
-                  >
-                    Kathleen Smith
-                  </h1>
+                  <h1 className="Name font-bold text-2xl">Kathleen Smith</h1>
                   <p className="text-sm">Fuel Company</p>
                 </div>
               </div>
@@ -62,18 +55,13 @@ const Testimonial = () => {
             <Star />
           </div>
         </div>
-        <div
-          className="bg-[#091242] w-1/3 h-96 p-10"
-          style={{ width: "500px" }}
-        >
+        <div className="bgTestimony bg-[#091242] w-1/3 h-96 p-10">
           <div className="flex">
             <div className="flex gap-20">
               <div className="flex">
                 <img src={FairMan} alt="" className="rounded-full w-20 h-20" />
                 <div className="flex-col text-white ml-3">
-                  <h1 className="font-bold " style={{ fontSize: "20px" }}>
-                    John Martin
-                  </h1>
+                  <h1 className="Name font-bold ">John Martin</h1>
                   <p className="text-sm">Restoration Company</p>
                 </div>
               </div>

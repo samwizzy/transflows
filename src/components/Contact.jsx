@@ -8,11 +8,12 @@ import {
   StudiGreen,
   Time,
 } from "../TransflowImages/Aimages";
+import "../styles/HomeStyles.css";
 
 const Contact = () => {
   return (
     <div className="bg-[#091242] w-screen mt-9">
-      <div className="h-screen max-w-2xl mx-auto flex justify-center items-center">
+      <div className="Contact max-w-2xl mx-auto flex justify-center items-center">
         <div>
           <div className="flex ">
             <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
@@ -62,11 +63,7 @@ const Contact = () => {
                       id="name"
                       name="name"
                       placeholder="Your name"
-                      className="px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 w-60 h-12"
-                      style={{
-                        backgroundColor: "transparent",
-                        border: "1px solid #4E5683",
-                      }}
+                      className=" Input px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 w-60 h-12"
                     />
                   </div>
                   <div className="flex flex-col flex-1">
@@ -75,11 +72,7 @@ const Contact = () => {
                       id="email"
                       name="email"
                       placeholder="Email"
-                      className="px-3 py-2 border border-gray-400  focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
-                      style={{
-                        backgroundColor: "transparent",
-                        border: "1px solid #4E5683",
-                      }}
+                      className="Input px-3 py-2 border border-gray-400  focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
                     />
                   </div>
                 </div>
@@ -90,11 +83,7 @@ const Contact = () => {
                       id="phone"
                       name="phone"
                       placeholder="Phone Number"
-                      className="px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
-                      style={{
-                        backgroundColor: "transparent",
-                        border: "1px solid #4E5683",
-                      }}
+                      className="Input px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
                     />
                   </div>
                   <div className="flex flex-col flex-1">
@@ -103,11 +92,7 @@ const Contact = () => {
                       id="city"
                       name="city"
                       placeholder="City"
-                      className="px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
-                      style={{
-                        backgroundColor: "transparent",
-                        border: "1px solid #4E5683",
-                      }}
+                      className="Input px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
                     />
                   </div>
                 </div>
@@ -115,11 +100,7 @@ const Contact = () => {
                   type="text"
                   name="message"
                   placeholder="Your Message"
-                  className="px-3 py-2 border border-gray-400  w-full h-28"
-                  style={{
-                    backgroundColor: "transparent",
-                    border: "1px solid #4E5683",
-                  }}
+                  className="Input px-3 py-2 border border-gray-400  w-full h-28"
                 />
 
                 <button className="bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] border-none w-40 h-10">

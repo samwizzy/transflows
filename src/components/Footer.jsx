@@ -1,27 +1,31 @@
 import React from "react";
 import { CallUs, Logo, Mail, WaterContainer } from "../TransflowImages/Aimages";
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import "../styles/HomeStyles.css";
+
 const Footer = () => {
   return (
-    <footer className="bg-[#091242] text-gray-400">
+    <footer className="bg-[#091242] text-gray-400 mt-4">
       <div>
         <img src={WaterContainer} alt="" />
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-2">
         <div className="bg-[#ffffff40] w-40 h-20 "></div>
         <img src={Logo} alt="" />
         <div className="bg-[#ffffff40] w-full h-20 ">
-          <div className="xl:grid md:grid-cols-3 xl:gap-1   max-w-9xl mx-auto py-8 px-4 sm:px-6 lg:py-6 lg:px-8">
-            <h4 className="text-lg font-bold mb-4 ml-10 text-white">Pages</h4>
-            <h4 className="text-lg font-bold mb-4 text-white">Utility</h4>
-            <h4 className="text-lg font-bold mb-4 text-white ">Subscribe</h4>
+          <div className="flex justify-between xl:gap-8 max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:py-6 lg:px-8">
+            <h4 className="text-lg font-bold mb-4  text-white ml-20">Pages</h4>
+            <h4 className="text-lg font-bold mb-4 text-white mr-10">Utility</h4>
+            <h4 className="text-lg font-bold mb-4 text-white mr-28">
+              Subscribe
+            </h4>
           </div>
         </div>
       </div>
       <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-12 lg:px-8">
-        <div className="xl:grid xl:grid-cols-4 xl:gap-8">
+        <div className="flex justify-between xl:gap-8">
           <div className="mb-8 xl:mb-0">
-            <p className="font-medium mb-4 text-xs text-white">
+            <p className="font-medium mb-4 text-xs text-white w-60">
               Leverage agile frameworks to provide a robust synopsis for
               strategy collaborative thinking to further the overall value
               proposition.
@@ -65,11 +69,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Email here*"
-                className=" text-white text-sm py-2 px-3 border-gray-400 w-30"
-                style={{
-                  backgroundColor: "transparent",
-                  border: "1px solid #4E5683",
-                }}
+                className="input text-white text-sm py-2 px-3 border-gray-400 w-30"
               />
             </div>
             <div className="flex gap-4 items-center">

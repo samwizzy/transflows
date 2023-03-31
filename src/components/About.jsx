@@ -4,9 +4,10 @@ import { Icon1 } from "../TransflowImages/Aimages";
 import { Icon7 } from "../TransflowImages/Aimages";
 import { Airplane } from "../TransflowImages/Aimages";
 import { GirlWritings } from "../TransflowImages/Aimages";
+import "../styles/HomeStyles.css";
 const About = () => {
   return (
-    <div className="" style={{ minHeight: "120vh" }}>
+    <div className="About">
       <div
         className="text-white flex justify-center items-center h-96 w-screen  mx-auto"
         style={{
@@ -17,14 +18,8 @@ const About = () => {
         }}
       ></div>
       <div className="w-screen">
-        <div
-          className="absolute left-1/2 transform -translate-x-1/2 -translate-y-28 bg-white"
-          style={{ width: "900px" }}
-        >
-          <div
-            class="p-9 mx-auto max-w-4xl  grid md:grid-cols-2 gap-8"
-            style={{ minHeight: "70vh" }}
-          >
+        <div className="bg-about absolute left-1/2 transform -translate-x-1/2 -translate-y-28 bg-white">
+          <div class="gallery p-9 mx-auto max-w-4xl  grid md:grid-cols-2 gap-8">
             <div>
               <div className="flex">
                 <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>
@@ -54,18 +49,12 @@ const About = () => {
               </div>
             </div>
             <div className="relative">
-              <img
-                src={Airplane}
-                alt=""
-                className=" w-full h-auto"
-                style={{ overflow: "hidden" }}
-              />
+              <img src={Airplane} alt="" className="PlaneImage w-full h-auto" />
               <div className="absolute bottom-0 left-[-47px] top-[197px] w-[282px] h-[275px] bg-white"></div>
               <img
                 src={GirlWritings}
                 alt=""
                 className="absolute bottom-0 left-[-47px] top-[227px] w-[252px] h-[205px] object-cover  "
-                style={{ zIndex: "1" }}
               />
             </div>
           </div>

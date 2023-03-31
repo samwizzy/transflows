@@ -9,37 +9,16 @@ import {
   Iconn,
   Plane,
 } from "../TransflowImages/Aimages";
+import "../styles/HomeStyles.css";
 
 const WhyChooseUs = () => {
   return (
-    <div className=" w-screen flex mt-8" style={{ height: "80vh" }}>
+    <div className="WhyChooseUs w-screen flex mt-8">
       <div className="bg-[#091242] w-1/2 flex justify-center items-center">
-        <div
-          className="flex justify-center items-center"
-          style={{ position: "relative" }}
-        >
-          <img
-            src={DreamLifter}
-            alt=""
-            style={{ transform: "translateX(50px)" }}
-          />
-          <div
-            className="w-80 p-2 flex justify-center items-center"
-            style={{
-              position: "absolute",
-              bottom: 0,
-              background:
-                "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)",
-            }}
-          >
-            <div
-              className="bg-[#ffffff] bg-opacity-20 absolute w-px h-full mr-48"
-              style={{
-                transform: "skew(60deg)",
-                transformOrigin: "top left",
-                right: 0,
-              }}
-            ></div>
+        <div className="WhyUs flex justify-center items-center">
+          <img src={DreamLifter} alt="" className="WhyUs-Img" />
+          <div className="Icon w-80 p-2 flex justify-center items-center">
+            <div className="bg-[#ffffff] bg-opacity-20 absolute w-px h-full mr-48"></div>
             <img src={Plane} alt="" />
             <p className="font-normal text-xl ml-3 mt-3">
               Moving your products across borders

@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/HomeStyles.css";
 import {
   Calender,
   Color,
@@ -9,7 +10,7 @@ import {
 
 const Blog = () => {
   return (
-    <div className="w-screen h-screen mt-7" style={{ minHeight: "180vh" }}>
+    <div className="Blog w-screen h-fit mt-7">
       <div className="max-w-3xl mx-auto">
         <div className="flex items-center justify-center">
           <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] "></div>
@@ -24,12 +25,7 @@ const Blog = () => {
           <div className="flex flex-col">
             <div className="flex gap-2 justify-center items-center mt-4 max-w-4xl ">
               <div className="mt-7">
-                <img
-                  src={Color}
-                  alt=""
-                  className=""
-                  style={{ width: "100vh" }}
-                />
+                <img src={Color} alt="" className="BlogImage" />
               </div>
               <div className="flex flex-col items-center w-60 mb-16">
                 <img src={Calender} alt="" className="w-10 mb-1" />
@@ -58,28 +54,10 @@ const Blog = () => {
               </div>
             </div>
             <div className="flex  items-center ">
-              <div className="mt-1 " style={{ position: "relative" }}>
-                <img
-                  src={Carton}
-                  alt=""
-                  className="bg-[#1C1F35]"
-                  style={{ width: "100vh" }}
-                />
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "50%",
-                    left: "50%",
-                    transform: "translate(-50%, -50%)",
-                    width: "80%",
-                    height: "70%",
-                    background: "rgba(0, 0, 0, 0.8)",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <p style={{ color: "white", margin: 0 }}>Read more</p>
+              <div className="mt-1">
+                <img src={Carton} alt="" className="BlogImage bg-[#1C1F35]" />
+                <div className="Placement">
+                  <p>Read more</p>
                 </div>
               </div>
               <div className="flex flex-col items-center w-60 mb-16">
@@ -111,7 +89,7 @@ const Blog = () => {
             </div>
             <div className="flex  items-center mb-16">
               <div className="mt-8">
-                <img src={WaterShip} alt="" style={{ width: "100vh" }} />
+                <img src={WaterShip} alt="" className="BlogImage" />
               </div>
               <div className="flex flex-col items-center w-60 mb-16">
                 <img src={Calender} alt="" className="w-10 mb-1" />

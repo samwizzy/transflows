@@ -1,9 +1,11 @@
 import React from "react";
-import { ManWoman, More } from "../TransflowImages/Aimages";
+import { ManWoman } from "../TransflowImages/Aimages";
 import { Truck } from "../TransflowImages/Aimages";
 import { ShipWater } from "../TransflowImages/Aimages";
 import { Container } from "../TransflowImages/Aimages";
 import { TruckFlex } from "../TransflowImages/Aimages";
+import "../styles/HomeStyles.css";
+
 const Project = () => {
   return (
     <div>
@@ -15,15 +17,11 @@ const Project = () => {
         </div>
         <div className="h-96 w-full bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]">
           <div className="grid md:grid-cols-5 gap-0 justify-center items-center p-3 transform  -translate-y-72">
-            <div className="p-2" style={{ position: "relative" }}>
+            <div className="WriteUp p-2">
               <img
                 src={Truck}
                 alt=""
                 className="h-auto w-full object-contain"
-                style={{
-                  background:
-                    "linearGradient(0deg, #091242 14.34%, rgba(60, 60, 60, 0) 43.86%)",
-                }}
               />
 
               <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-64 bottom-0">
@@ -33,7 +31,7 @@ const Project = () => {
                 <p className="text-[#FFB629] text-xs ">Premium Tankers</p>
               </div>
             </div>
-            <div className="p-2 " style={{ position: "relative" }}>
+            <div className="p-2 WriteUp">
               <img
                 src={ManWoman}
                 alt=""
@@ -46,14 +44,11 @@ const Project = () => {
                 </p>
               </div>
             </div>
-            <div className="p-2" style={{ position: "relative" }}>
+            <div className="p-2 WriteUp ">
               <img
                 src={TruckFlex}
                 alt=""
                 className="h-auto w-full object-contain"
-                style={{
-                  background: `linear-gradient(rgba(9, 18, 66, 0), rgba(9, 18, 66, 1))`,
-                }}
               />
               <div className="items-start p-2 gap-4 absolute w-208 h-52 left-25 top-64 bottom-0">
                 <h1 className="text-xl text-white">Contract Logistics</h1>
@@ -62,7 +57,7 @@ const Project = () => {
                 </p>
               </div>
             </div>
-            <div className="p-2" style={{ position: "relative" }}>
+            <div className="p-2 WriteUp">
               <img
                 src={Container}
                 alt=""
@@ -73,7 +68,7 @@ const Project = () => {
                 <p className="text-[#FFB629] text-sm ">Large Warehouse</p>
               </div>
             </div>
-            <div className="p-2" style={{ position: "relative" }}>
+            <div className="p-2 WriteUp">
               <img
                 src={ShipWater}
                 alt=""
@@ -85,7 +80,21 @@ const Project = () => {
               </div>
             </div>
             <div className="grid justify-center items-center h-full w-screen mt-9">
-              <img src={More} alt="" />
+              <button className="bg-[#091242] w-32 h-12 relative overflow-hidden text-[#ffffff] font-bold text-xs text-center">
+                More Work
+                <span className="absolute bottom-0 right-0">
+                  <span
+                    className="block h-8 w-8 bg-[#1F2A69]"
+                    style={{
+                      transform: "rotate(90deg)",
+                      marginTop: "-5px",
+                      marginRight: "-3px",
+                      borderRadius: "0px 0px 0px 250px",
+                      transition: "all 0.3s ease-in-out",
+                    }}
+                  />
+                </span>
+              </button>
             </div>
           </div>
         </div>

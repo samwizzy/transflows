@@ -1,0 +1,103 @@
+/* About */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: fixed;
+}
+.banner {
+  min-height: 80vh;
+  width: 100%;
+}
+.About {
+  min-height: 120vh;
+}
+.bg-about {
+  width: 900px;
+}
+.gallery {
+  min-height: 70vh;
+}
+.PlaneImage {
+  overflow: hidden;
+}
+/* Blog */
+.Blog {
+  min-height: 100vh;
+}
+
+.Placement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 70%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Placement p {
+  color: white;
+  margin: 0;
+}
+.BlogImage {
+  width: 100vh;
+}
+.mt-1 {
+  position: relative;
+}
+
+/* Project */
+
+.WriteUp {
+  position: relative;
+}
+/* Testimonials */
+
+.bgTestimony {
+  width: 500px;
+}
+.Name {
+  font-size: 20px;
+}
+.testimonial {
+  min-height: 30vh;
+  margin: auto;
+}
+/* WhyChooseUs */
+.WhyUs {
+  position: relative;
+}
+.WhyUs-Img {
+  transform: translateX(50px);
+}
+.Icon {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}
+.Icon > div {
+  transform: skew(60deg);
+  transform-origin: top left;
+  right: 0;
+}
+.WhyChooseUs {
+  min-height: 70vh;
+}
+
+/* Contact */
+.Input {
+  background-color: transparent;
+  border: 1px solid #4e5683;
+}
+.Contact {
+  min-height: 90vh;
+}
