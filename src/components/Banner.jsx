@@ -28,10 +28,9 @@ const Banner = () => {
         <h1 className="text-white text-4xl font-semibold font-display tracking-widest leading-10 max-w-sm mt-3">
           Your Gateway to any Destination in the World
         </h1>
-        <p className="text-xs font-extralight mt-3 w-96 ">
-          In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in
-          arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus
-          finibus, enim diam interdum nulla, sed laoreet risus lectus.{" "}
+        <p className="text-xs font-extralight mt-3 mb-6 w-96">
+          In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc
+          faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus.{" "}
         </p>
 
         <button className="bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] w-32 h-12 relative overflow-hidden text-[#23212A] font-bold text-xs text-center">

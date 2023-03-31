@@ -3,7 +3,6 @@ import { Logo } from "../TransflowImages";
 import { clock } from "../TransflowImages";
 import { Call } from "../TransflowImages";
 import { Email } from "../TransflowImages";
-//import NavigationBar from '../components/NavigationBar';
 
 const Header = () => {
   return (
@@ -14,32 +13,28 @@ const Header = () => {
         </div>
         <div className="flex items-center">
           <div className="flex items-center mr-8">
-            <img className="h-6 w-6 mr-2" src={clock} alt="Clock" />
+            <img className="h-10 w-10 mr-2" src={clock} alt="Clock" />
             <div>
-              <p className="text-white text-sm font-medium">Mon-Sat</p>
-              <p className="text-gray-400 text-xs font-medium">9.00 - 18.00</p>
+              <p className="text-white text-sm font-medium">Mon — Sat</p>
+              <p className="text-gray-400 text-xs font-medium">9.00 — 18.00</p>
             </div>
           </div>
           <div className="flex items-center">
             <div className="flex items-center ml-8">
-              <img className="h-6 w-6 mr-2" src={Email} alt="Email" />
+              <img className="h-10 w-10 mr-2" src={Email} alt="Email" />
               <div>
                 <p className="text-white text-sm font-medium">Email</p>
-                <p className="text-gray-400 text-xs font-medium">
-                  Contact@logistics.com
-                </p>
+                <p className="text-gray-400 text-xs font-medium">Contact@logistics.com</p>
               </div>
             </div>
           </div>
         </div>
         <div className="hidden md:flex items-center">
           <div className="flex items-center  ">
-            <img className="h-6 w-6 mr-2" src={Call} alt="Call" />
+            <img className="h-10 w-10 mr-2" src={Call} alt="Call" />
             <div>
               <p className="text-white text-sm font-medium">Call</p>
-              <p className="text-gray-400 text-xs font-medium">
-                +1 123 456 7890
-              </p>
+              <p className="text-gray-400 text-xs font-medium">+1 123 456 7890</p>
             </div>
           </div>
         </div>

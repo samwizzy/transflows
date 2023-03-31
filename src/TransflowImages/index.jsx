@@ -26,6 +26,7 @@ import StudiGreen from "./StudiGreen.jpg";
 import DreamLifter from "./DreamLifter.png";
 import WaterContainer from "./WaterContainer.png";
 import GirlWritings from "./GirlWritings.png";
+import PlaneBg from "./PlaneBg.png";
 import Hicons1 from "./Icons/Hicons1.svg";
 import Hicons2 from "./Icons/Hicons2.svg";
 import Hicons3 from "./Icons/Hicons3.svg";
@@ -49,6 +50,7 @@ import Calender from "./Icons/Calender.svg";
 import Button from "./Icons/Button.svg";
 import Hover from "./Icons/Hover.svg";
 import Explore from "./Icons/Explore.svg";
+
 export {
   LogoHeader,
   Logo,
@@ -101,4 +103,5 @@ export {
   Button2,
   Hover,
   Explore,
+  PlaneBg,
 };

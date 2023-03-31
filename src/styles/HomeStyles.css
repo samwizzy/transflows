@@ -71,7 +71,8 @@ body {
   position: relative;
 }
 .WhyUs-Img {
-  transform: translateX(50px);
+  transform: translateX(120px);
+  width: 720px;
 }
 .Icon {
   position: absolute;
