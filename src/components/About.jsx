@@ -5,6 +5,7 @@ import { Icon7 } from "../TransflowImages";
 import { Airplane } from "../TransflowImages";
 import { GirlWritings } from "../TransflowImages";
 import "../styles/HomeStyles.css";
+
 const About = () => {
   return (
     <div className="About">
