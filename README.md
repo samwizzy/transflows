@@ -66,7 +66,7 @@ README.md
 The component folder is created for the Home file in the page folder, I aranged the component in Home file accordingly on how it should be viewed on the web page
 I created a file int he component folder called NavgationBar.jsx and inputted/Called it in the Banner.jsx file to avoid making the Banner file bulky
 
-Aimages.jsx - This is where i created my Images and exported it, The Aimages is in the TransflowImages Folder
+index.jsx - This is where i created my Images and exported it, The Aimages is in the TransflowImages Folder
 
 Star.jsx - This file is created for the stars in Testimonial Section and was called in Testimonial.jsx file. The Star.jsx is in the component Folder
 

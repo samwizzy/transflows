@@ -7,12 +7,12 @@ import {
   Snow,
   StudiGreen,
   Time,
-} from "../TransflowImages/Aimages";
+} from "../TransflowImages";
 import "../styles/HomeStyles.css";
 
 const Contact = () => {
   return (
-    <div className="bg-[#091242] w-screen mt-9">
+    <div className="bg-[#091242] w-full mt-9">
       <div className="Contact max-w-2xl mx-auto flex justify-center items-center">
         <div>
           <div className="flex ">

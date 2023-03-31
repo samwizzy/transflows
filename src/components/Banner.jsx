@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero } from "../TransflowImages/Aimages";
+import { Hero } from "../TransflowImages";
 //import Header from './Header';
 import NavigationBar from "./NavigationBar";
 import "../styles/HomeStyles.css";
@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div
       role="banner"
-      className="banner text-white  w-screen"
+      className="banner text-white  w-full"
       style={{
         backgroundImage: `url(${Hero})`,
         backgroundPosition: "center",

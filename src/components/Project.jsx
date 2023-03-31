@@ -1,9 +1,9 @@
 import React from "react";
-import { ManWoman } from "../TransflowImages/Aimages";
-import { Truck } from "../TransflowImages/Aimages";
-import { ShipWater } from "../TransflowImages/Aimages";
-import { Container } from "../TransflowImages/Aimages";
-import { TruckFlex } from "../TransflowImages/Aimages";
+import { ManWoman } from "../TransflowImages";
+import { Truck } from "../TransflowImages";
+import { ShipWater } from "../TransflowImages";
+import { Container } from "../TransflowImages";
+import { TruckFlex } from "../TransflowImages";
 import "../styles/HomeStyles.css";
 
 const Project = () => {

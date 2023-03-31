@@ -1,5 +1,5 @@
 import React from "react";
-import { CallUs, Logo, Mail, WaterContainer } from "../TransflowImages/Aimages";
+import { CallUs, Logo, Mail, WaterContainer } from "../TransflowImages";
 import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import "../styles/HomeStyles.css";
 

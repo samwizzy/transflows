@@ -1,11 +1,11 @@
 import React from "react";
-import { Hicons1 } from "../TransflowImages/Aimages";
-import { Hicons2 } from "../TransflowImages/Aimages";
-import { Hicons3 } from "../TransflowImages/Aimages";
-import { Hicons4 } from "../TransflowImages/Aimages";
+import { Hicons1 } from "../TransflowImages";
+import { Hicons2 } from "../TransflowImages";
+import { Hicons3 } from "../TransflowImages";
+import { Hicons4 } from "../TransflowImages";
 const Services = () => {
   return (
-    <div className=" w-screen mx-auto py-16">
+    <div className=" w-full mx-auto py-16">
       <div className="flex max-w-4xl mx-auto">
         <div>
           <div className="flex">

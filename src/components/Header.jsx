@@ -1,13 +1,13 @@
 import React from "react";
-import { Logo } from "../TransflowImages/Aimages";
-import { clock } from "../TransflowImages/Aimages";
-import { Call } from "../TransflowImages/Aimages";
-import { Email } from "../TransflowImages/Aimages";
+import { Logo } from "../TransflowImages";
+import { clock } from "../TransflowImages";
+import { Call } from "../TransflowImages";
+import { Email } from "../TransflowImages";
 //import NavigationBar from '../components/NavigationBar';
 
 const Header = () => {
   return (
-    <div className="bg-[#091242] py-2 md:py-4 lg:py-4 w-screen">
+    <div className="bg-[#091242] py-2 md:py-4 lg:py-4 w-full">
       <div className="max-w-4xl mx-auto flex justify-between items-center p-3 ">
         <div className="flex items-center">
           <img className="h-10 w-25 mr-12" src={Logo} alt="Logo" />

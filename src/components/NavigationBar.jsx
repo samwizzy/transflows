@@ -4,7 +4,7 @@ import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const NavigationBar = () => {
   return (
-    <div className="bg-[#09124240] w-screen ">
+    <div className="bg-[#09124240] w-full ">
       <div className=" max-w-4xl mx-auto flex justify-between items-center ">
         <div className="flex items-center">
           <div className=" flex items-center pl-4 list-none space-x-4">

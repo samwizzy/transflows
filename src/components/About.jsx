@@ -1,15 +1,15 @@
 import React from "react";
-import { Photo } from "../TransflowImages/Aimages";
-import { Icon1 } from "../TransflowImages/Aimages";
-import { Icon7 } from "../TransflowImages/Aimages";
-import { Airplane } from "../TransflowImages/Aimages";
-import { GirlWritings } from "../TransflowImages/Aimages";
+import { Photo } from "../TransflowImages";
+import { Icon1 } from "../TransflowImages";
+import { Icon7 } from "../TransflowImages";
+import { Airplane } from "../TransflowImages";
+import { GirlWritings } from "../TransflowImages";
 import "../styles/HomeStyles.css";
 const About = () => {
   return (
     <div className="About">
       <div
-        className="text-white flex justify-center items-center h-96 w-screen  mx-auto"
+        className="text-white flex justify-center items-center h-96 w-full  mx-auto"
         style={{
           backgroundImage: `linear-gradient(rgba(9, 18, 66, 0), rgba(9, 18, 66, 1)), url(${Photo})`,
           backgroundPosition: "center",

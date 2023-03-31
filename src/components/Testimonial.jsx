@@ -1,7 +1,7 @@
 import React from "react";
-import { FairMan } from "../TransflowImages/Aimages";
-import { WhiteMan } from "../TransflowImages/Aimages";
-import { Comma } from "../TransflowImages/Aimages";
+import { FairMan } from "../TransflowImages";
+import { WhiteMan } from "../TransflowImages";
+import { Comma } from "../TransflowImages";
 import Star from "./Star";
 import "../styles/HomeStyles.css";
 import {
@@ -11,7 +11,7 @@ import {
 
 const Testimonial = () => {
   return (
-    <div className=" testimonial w-screen ">
+    <div className=" testimonial w-full ">
       <div className="mx-auto max-w-4xl">
         <div className="flex ">
           <div className="h-7 w-1 bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6]"></div>

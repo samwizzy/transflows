@@ -8,12 +8,12 @@ import {
   Icon6,
   Iconn,
   Plane,
-} from "../TransflowImages/Aimages";
+} from "../TransflowImages";
 import "../styles/HomeStyles.css";
 
 const WhyChooseUs = () => {
   return (
-    <div className="WhyChooseUs w-screen flex mt-8">
+    <div className="WhyChooseUs w-full flex mt-8">
       <div className="bg-[#091242] w-1/2 flex justify-center items-center">
         <div className="WhyUs flex justify-center items-center">
           <img src={DreamLifter} alt="" className="WhyUs-Img" />
