@@ -11,11 +11,10 @@ body {
   width: 100%;
 }
 .About {
-  min-height: 120vh;
+  min-height: 100vh;
+  border: 1px solid red;
 }
-.bg-about {
-  width: 900px;
-}
+
 .gallery {
   min-height: 70vh;
 }
@@ -77,12 +76,7 @@ body {
 .Icon {
   position: absolute;
   bottom: 0;
-  background: linear-gradient(
-    94.06deg,
-    #ffb629 -1.21%,
-    #ffda56 58.66%,
-    #ffd7a6 116.84%
-  );
+  background: linear-gradient(94.06deg, #ffb629 -1.21%, #ffda56 58.66%, #ffd7a6 116.84%);
 }
 .Icon > div {
   transform: skew(60deg);
