@@ -24,12 +24,12 @@ const Testimonial = () => {
       </div>
       <div className="flex justify-center items-center w-screen mx-auto max-w-4xl">
         <div className="bgTestimony bg-[#F4F4F4] w-1/2 h-96 p-10 ">
-          <div className="flex">
-            <div className="flex gap-20">
-              <div className="flex">
+          <div className="">
+            <div className="flex justify-between">
+              <div className="flex items-center">
                 <img src={WhiteMan} alt="" className="rounded-full w-20 h-20" />
                 <div className="flex-col text-[#091242] ml-2">
-                  <h1 className="Name font-bold text-2xl">Kathleen Smith</h1>
+                  <h1 className="text-lg font-bold">Kathleen Smith</h1>
                   <p className="text-sm">Fuel Company</p>
                 </div>
               </div>
@@ -48,16 +48,16 @@ const Testimonial = () => {
           </div>
         </div>
         <div className="bgTestimony bg-[#091242] w-1/2 h-96 p-10">
-          <div className="flex">
-            <div className="flex gap-20">
-              <div className="flex">
+          <div className="">
+            <div className="flex justify-between">
+              <div className="flex items-center">
                 <img src={FairMan} alt="" className="rounded-full w-20 h-20" />
                 <div className="flex-col text-white ml-3">
-                  <h1 className="Name font-bold ">John Martin</h1>
+                  <h1 className="text-lg font-bold">John Martin</h1>
                   <p className="text-sm">Restoration Company</p>
                 </div>
               </div>
-              <img src={Comma} alt="" className="ml-3" />
+              <img src={Comma} alt="" className="ml-0" />
             </div>
           </div>
           <div className="flex-col">

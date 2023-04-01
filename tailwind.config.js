@@ -12,12 +12,15 @@ module.exports = {
         7.5: "1.875rem",
       },
       fontFamily: {
-        sans: ["Open Sans", "sans-serif"],
+        sans: ["inter", "Open Sans", "sans-serif"],
         serif: ["Roboto", "serif"],
         display: ["Rubik", "sans-serif"],
       },
       width: {
         400: "400px",
+      },
+      maxWidth: {
+        "8xl": "82rem",
       },
     },
   },

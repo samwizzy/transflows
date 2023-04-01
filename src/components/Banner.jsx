@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div
       role="banner"
-      className="banner text-white  w-full"
+      className="banner text-white w-full"
       style={{
         backgroundImage: `url(${Hero})`,
         backgroundPosition: "center",
@@ -33,7 +33,7 @@ const Banner = () => {
           faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus.{" "}
         </p>
 
-        <button className="bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] w-32 h-12 relative overflow-hidden text-[#23212A] font-bold text-xs text-center">
+        <button className="bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] w-40 h-12 relative overflow-hidden text-[#23212A] font-bold text-sm text-center">
           Explore More
           <span className="absolute bottom-0 right-0">
             <span

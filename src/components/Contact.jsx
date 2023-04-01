@@ -45,14 +45,14 @@ const Contact = () => {
             </div>
             <div className="flex justify-center ">
               <form className="max-w-3xl space-y-6">
-                <div className="flex space-x-0">
+                <div className="flex space-x-2">
                   <div className="flex flex-col flex-1">
                     <input
                       type="text"
                       id="name"
                       name="name"
                       placeholder="Your name"
-                      className=" Input px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 w-60 h-12"
+                      className="px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 w-60 h-12"
                     />
                   </div>
                   <div className="flex flex-col flex-1">
@@ -61,7 +61,7 @@ const Contact = () => {
                       id="email"
                       name="email"
                       placeholder="Email"
-                      className="Input px-3 py-2 border border-gray-400  focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
+                      className="px-3 py-2 border border-gray-400  focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
                     />
                   </div>
                 </div>
@@ -72,7 +72,7 @@ const Contact = () => {
                       id="phone"
                       name="phone"
                       placeholder="Phone Number"
-                      className="Input px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
+                      className="px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
                     />
                   </div>
                   <div className="flex flex-col flex-1">
@@ -81,15 +81,15 @@ const Contact = () => {
                       id="city"
                       name="city"
                       placeholder="City"
-                      className="Input px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
+                      className="px-3 py-2 border border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 w-60 h-12"
                     />
                   </div>
                 </div>
-                <input
-                  type="text"
+                <textarea
                   name="message"
                   placeholder="Your Message"
-                  className="Input px-3 py-2 border border-gray-400  w-full h-28"
+                  rows={4}
+                  className="px-3 py-2 border border-gray-400 w-full"
                 />
 
                 <button className="bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] border-none w-40 h-10">

@@ -71,24 +71,25 @@ const Footer = () => {
             <div className="">
               <input
                 type="email"
-                placeholder="Email here*"
-                className="input text-white text-sm py-2 px-3 border-gray-400 w-30"
+                required
+                placeholder="Email here"
+                className="input w-full bg-transparent text-white text-sm py-2 px-3 border-gray-400 w-30"
               />
             </div>
-            <div className="flex gap-4 items-center">
-              <button className="bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] text-white  py-2 px-4 mt-2">
-                Subscribe
+            <div className="grid grid-cols-2 gap-4 items-center">
+              <button className="text-gray-600 font-bold bg-gradient-to-r from-[#FFB629] via-[#FFDA56] to-[#FFD7A6] py-4 mt-2">
+                Send Now
               </button>
 
-              <div className="mt-4 flex list-none mr-2">
+              <div className="mt-4 flex justify-between items-center list-none mr-2">
                 <li className="text-white hover:text-white mr-4">
-                  <FaLinkedin />
+                  <FaLinkedin size={20} />
                 </li>
                 <li className="text-white hover:text-white mr-4">
-                  <FaFacebook />
+                  <FaFacebook size={20} />
                 </li>
                 <li className="text-white hover:text-white mr-4">
-                  <FaTwitter />
+                  <FaTwitter size={20} />
                 </li>
               </div>
             </div>
